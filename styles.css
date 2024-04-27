@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin: 3rem 0 0 7rem;
+}
+
+.container {
+  background-image: url("./starter-code/assets/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.row h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 88px;
+  position: relative;
+  top: 5rem;
+  left: 7rem;
+  width: 1015px;
+}
+
+.row p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  position: relative;
+  top: 7rem;
+  left: 7rem;
+  width: 825px;
+}
+
+.pattern-1 {
+  width: 243px;
+  height: 312px;
+}
+
+/************* BLACK CARD SECTION ******************/
+
+.dark_row {
+  background-color: #191826;
+  background-image: url("./starter-code/assets/bg-pattern-2.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 1110px;
+  height: 600px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 15rem 0 0 7rem;
+}
+
+.app {
+  width: 312px;
+  height: 642px;
+  margin-top: -5rem;
+  margin-left: 4rem;
+}
+/******** light orange premium card *********************/
+.premium {
+  background-color: #fa7453;
+  border-radius: 10px;
+  width: 446px;
+  height: 625px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.premium h2 {
+  color: #fcfaf9;
+  margin: 1rem 0 0 4rem;
+  font-size: 40px;
+}
+
+.premium p {
+  color: #fcfaf9;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  margin-left: 4rem;
+  width: 333px;
+}
+.card-price {
+  margin-top: 0.625rem;
+  margin-left: 3.375rem;
+  font-size: 4.063rem;
+}
+
+.price-- {
+  font-weight: 200;
+  font-size: 1.25rem;
+  margin-top: 10.56rem;
+  letter-spacing: 0.013rem;
+  line-height: 3.25rem;
+  position: relative;
+  top: -12px;
+}
+
+.premium a {
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  padding-top: 20px;
+}
+
+.apple {
+  background-color: #191826;
+  color: #fcfaf9;
+  width: 333px;
+  height: 61px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.icon-apple {
+  margin: -1px 10px;
+}
+
+.icon-android {
+  margin: -1px 10px;
+}
+
+.apple:hover {
+  background-color: #66e2dc;
+}
+
+.android {
+  background-color: #fcfaf9;
+  color: #191826;
+  width: 333px;
+  height: 61px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.android:hover {
+  background-color: #ffb964;
+}
+
+footer {
+  margin-top: 9rem;
+}
+.rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer-logo {
+  margin-left: 1rem;
+  width: 146.093px;
+  height: 32px;
+}
+
+footer p {
+  margin-top: -0.3rem;
+  margin-left: -5rem;
+  font-weight: 400;
+  line-height: 26px;
+  width: 20.175rem;
+}
+
+footer span {
+  color: #191826;
+  font-weight: 700;
+}
+
+footer .social-icons {
+  margin: 0 10px;
+}
+footer a {
+  text-decoration: none;
+}
+footer .link:hover {
+  background-color: #fa7453;
+  color: #ffb964;
+}
+
+.link .social-icons:hover {
+  color: #fcfaf9;
+  cursor: pointer;
+}
+
+@media (max-width: 1023px) {
+  .container {
+    background-image: url("./starter-code/assets/bg-main-tablet.png");
+    background-repeat: no-repeat;
+  }
+
+  .row h1 {
+    font-size: 64px;
+    line-height: 64px;
+    width: 520px;
+  }
+
+  .row p {
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 520px;
+  }
+
+  .pattern-1 {
+    width: 266.67px;
+    height: 400px;
+  }
+
+  .dark_row {
+    width: 696px;
+    height: 600px;
+    margin-left: 4rem;
+  }
+
+  .premium {
+    height: 546px;
+    width: 399px;
+    margin-left: -8rem;
+  }
+
+  premium h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    width: 302px;
+  }
+
+  .premium p {
+    font-size: 18px;
+    line-height: 28px;
+    width: 302px;
+  }
+
+  .premium a {
+    width: 296px;
+    height: 61px;
+    margin-left: 2.5rem;
+  }
+
+  .app {
+    width: 270.21px;
+    height: 556px;
+  }
+
+  footer .rows:nth-child(3) {
+    margin: 5rem 0 0 9rem;
+  }
+
+  footer .rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .footer-logo {
+    margin-left: 4rem;
+  }
+
+  footer p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 4rem;
+    width: 366px;
+  }
+
+  .social-icons {
+    float: right;
+  }
+
+  .icon-section {
+    float: right;
+    margin-top: -4rem;
+    margin-left: -5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    background-image: url("./starter-code/assets/bg-main-mobile.png");
+    background-position: 0% 50%;
+  }
+
+  .logo {
+    margin-left: 2rem;
+  }
+
+  .row h1 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+    width: 327px;
+  }
+
+  .row p {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+    width: 327px;
+  }
+
+  .pattern-1 {
+    display: none;
+  }
+
+  .dark_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    margin-left: 0rem;
+  }
+
+  .premium {
+    width: 375px;
+    height: 546px;
+    margin-left: 0.1rem;
+  }
+
+  .premium h2 {
+    margin: 1rem 0 0 2rem;
+  }
+
+  .premium p {
+    line-height: 28px;
+    font-size: 18px;
+    margin-left: 2rem;
+    width: 302px;
+  }
+
+  .apple {
+    width: 296px;
+    height: 61px;
+  }
+
+  .android {
+    width: 296px;
+    height: 61px;
+  }
+
+  .app {
+    width: 208.97px;
+    height: 430px;
+    margin-top: 8rem;
+    margin-left: 1rem;
+  }
+
+  footer .rows {
+    margin: 25rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .footer-logo {
+    position: relative;
+    top: -2rem;
+    margin-bottom: 2rem;
+    margin-left: -9.5rem;
+  }
+
+  footer .f__reserve {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    top: -2rem;
+    left: -2rem;
+    width: 327px;
+  }
+
+  footer .social-icons {
+    margin-top: 7rem;
+    margin-right: -2rem;
+    margin-left: 4rem;
+    margin-bottom: 5rem;
+  }
+
+  .icon-section {
+    margin-right: 0rem;
+    margin-left: -18rem;
+  }
+}
